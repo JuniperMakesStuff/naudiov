@@ -1,0 +1,35 @@
+#thefile {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 100;
+}
+
+#canvas {
+  position: fixed;
+  left: 0;
+  top: 0;
+  filter:hue-rotate(calc(0deg)) contrast(calc(100% + var(--spc)));
+  
+  width: 100%;
+  height: 100%;
+  
+  background-image: url(https://raw.githubusercontent.com/JuniperMakesStuff/RhythmGameOpenAlpha/master/oof.png);
+  background-repeat:no-repeat;
+  background-size:calc(100% + var(--spc));
+  //background-color:"#ffffff";
+  background-position:center;
+  
+}
+
+audio {
+  position: fixed;
+  left: 10px;
+  bottom: 10px;
+  width: calc(100% - 20px);
+}
+:root{
+  --spc:0%;
+  --x:0px;
+  --y:0px;
+}
